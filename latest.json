@@ -10,6 +10,10 @@
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjdiQkdyV2VweGdPMTgvZDFZU1N1OEM4M3BYK3gxSWpJOUlqb2ZaL3dqREhlNnhMVERYaXplMFJ6VVBaQXJ5WjZwZjE1WlQyNzFLcm55Zzdhbk9vMmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcwNDk0OTkxCWZpbGU6U2FtcGxlIFNjb3V0XzAuMS4wLWFscGhhLjE0X3g2NC1zZXR1cC5leGUKUGoxWnBZY09IRUxzZ3B4ZVpuWjFtY0JjRXplNUVlN0ZRME1ZeFF6WHNIVlJVbG1sdzFQczlkRUpvVkdIeVNmdFVhY2dGMXdlY3NTbFRJMU85dnR2RHc9PQo=",
       "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/Sample-Scout_0.1.0-alpha.14_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/Sample-Scout_0.1.0-alpha.14_amd64.deb"
     }
   }
 }

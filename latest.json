@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0-alpha.14",
+  "notes": "### Fixes\n- make release creation idempotent for re-runs\n\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.1.0-alpha.14...v0.1.0-alpha.14",
+  "pub_date": "2026-02-07T17:26:09Z",
+  "platforms": {
+    "darwin-universal": {
+      "signature": "",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/"
+    },
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/Sample-Scout_0.1.0-alpha.13_x64-setup.exe"
+    }
+  }
+}

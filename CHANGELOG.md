@@ -1,3 +1,44 @@
+## v0.1.0-alpha.15 (2026-02-08)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.1.0-alpha.15_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.15/Sample-Scout_0.1.0-alpha.15_universal.dmg) |
+| Windows | [Sample-Scout_0.1.0-alpha.15_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.15/Sample-Scout_0.1.0-alpha.15_x64-setup.exe) |
+| Linux | [Sample-Scout_0.1.0-alpha.15_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.15/Sample-Scout_0.1.0-alpha.15_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- Linux update notification in footer and eager font preload
+- unify update status styles and add checking state
+- redesign update check flow in About tab
+- add check for updates with download progress in About tab
+- sync README to public repo with download links on release
+- add download guide with direct links to release notes
+- add build output listing for debugging updater artifacts
+
+### Fixes
+- use arch-specific platform keys and improve update status UI
+- move BASE_URL to env block for Python access
+- rewrite README sync to avoid heredoc YAML parsing error
+- remove pending artifact delete step
+- add app bundle target for updater signature generation
+- enable updater artifact generation
+- sanitize inputs and fix release notes tag matching
+- include updater bundles in artifact uploads
+- checkout build commit SHA in release workflow
+- make release creation idempotent for re-runs
+
+### Other
+- bump version to 0.1.0-alpha.15
+- separate private/public READMEs
+- add .env to gitignore and update tauri-cli to 2.10.0
+- update Cargo.lock for alpha.14 version bump
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.1.0-alpha.14...v0.1.0-alpha.15
+
 ## v0.1.0-alpha.14 (2026-02-07)
 
 ### Download

@@ -41,8 +41,7 @@ curl -fsSL https://releases.samplescout.app/apt/gpg-key.asc | sudo gpg --dearmor
 echo "deb [signed-by=/usr/share/keyrings/sample-scout.gpg] https://releases.samplescout.app/apt stable main" | sudo tee /etc/apt/sources.list.d/sample-scout.list
 
 # Install
-sudo apt update
-sudo apt install sample-scout
+sudo apt update && sudo apt install sample-scout
 ```
 
 ## Links

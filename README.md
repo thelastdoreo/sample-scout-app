@@ -34,8 +34,11 @@ A keyboard-first sample audition tool for music producers. Rapidly browse and au
 ## Linux APT Repository
 
 ```bash
+# Add the GPG key
+curl -fsSL https://releases.samplescout.app/apt/gpg-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/sample-scout.gpg
+
 # Add the repository
-echo "deb [trusted=yes] https://releases.samplescout.app/apt stable main" | sudo tee /etc/apt/sources.list.d/samplescout.list
+echo "deb [signed-by=/usr/share/keyrings/sample-scout.gpg] https://releases.samplescout.app/apt stable main" | sudo tee /etc/apt/sources.list.d/sample-scout.list
 
 # Install
 sudo apt update

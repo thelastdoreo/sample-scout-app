@@ -3,13 +3,13 @@
 A keyboard-first sample audition tool for music producers. Rapidly browse and audition your sample library using keyboard shortcuts.
 
 <!-- DOWNLOADS_START -->
-## Download v0.1.0-alpha.14
+## Download v0.1.0-alpha.15
 
 | Platform | Installer |
 |----------|-----------|
-| macOS | [Sample-Scout_0.1.0-alpha.14_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/Sample-Scout_0.1.0-alpha.14_universal.dmg) |
-| Windows | [Sample-Scout_0.1.0-alpha.14_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/Sample-Scout_0.1.0-alpha.14_x64-setup.exe) |
-| Linux | [Sample-Scout_0.1.0-alpha.14_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.14/Sample-Scout_0.1.0-alpha.14_amd64.deb) |
+| macOS | [Sample-Scout_0.1.0-alpha.15_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.15/Sample-Scout_0.1.0-alpha.15_universal.dmg) |
+| Windows | [Sample-Scout_0.1.0-alpha.15_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.15/Sample-Scout_0.1.0-alpha.15_x64-setup.exe) |
+| Linux | [Sample-Scout_0.1.0-alpha.15_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.1.0-alpha.15/Sample-Scout_0.1.0-alpha.15_amd64.deb) |
 <!-- DOWNLOADS_END -->
 
 ## Keyboard Shortcuts

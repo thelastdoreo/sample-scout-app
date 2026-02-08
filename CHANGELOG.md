@@ -33,7 +33,6 @@
 - add download guide with direct links to release notes
 - sync README to public repo with download links on release
 - add .env to gitignore and update tauri-cli to 2.10.0
-- clean up release workflow summary
 
 **Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.1.0-alpha.14...v0.1.0-alpha.15
 

@@ -35,7 +35,7 @@ A keyboard-first sample audition tool for music producers. Rapidly browse and au
 
 ```bash
 # Add the repository
-echo "deb [trusted=yes] https://releases.samplescout.app/apt ./" | sudo tee /etc/apt/sources.list.d/samplescout.list
+echo "deb [trusted=yes] https://releases.samplescout.app/apt stable main" | sudo tee /etc/apt/sources.list.d/samplescout.list
 
 # Install
 sudo apt update

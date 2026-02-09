@@ -1,3 +1,28 @@
+## v0.2.1 (2026-02-09)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.2.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.1/Sample-Scout_0.2.1_universal.dmg) |
+| Windows | [Sample-Scout_0.2.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.1/Sample-Scout_0.2.1_x64-setup.exe) |
+| Linux | [Sample-Scout_0.2.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.1/Sample-Scout_0.2.1_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- progressive folder updates during library scanning
+
+### Fixes
+- prevent white flash during startup
+- tag library click not registering when filter text is active
+- consolidate log directory under sample-scout data path
+
+### Other
+- unify startup scan events with regular scan conventions
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.0...v0.2.1
+
 ## v0.2.0 (2026-02-08)
 
 ### Download

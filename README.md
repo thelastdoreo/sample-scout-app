@@ -35,10 +35,10 @@ A keyboard-first sample audition tool for music producers. Rapidly browse and au
 
 ```bash
 # Add the GPG key
-curl -fsSL https://releases.samplescout.app/apt/gpg-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/sample-scout.gpg
+curl -fsSL https://dl.samplescout.app/apt/gpg-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/sample-scout.gpg
 
 # Add the repository
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/sample-scout.gpg] https://releases.samplescout.app/apt stable main" | sudo tee /etc/apt/sources.list.d/sample-scout.list
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/sample-scout.gpg] https://dl.samplescout.app/apt stable main" | sudo tee /etc/apt/sources.list.d/sample-scout.list
 
 # Install
 sudo apt update && sudo apt install sample-scout
@@ -46,5 +46,5 @@ sudo apt update && sudo apt install sample-scout
 
 ## Links
 
-- [Changelog](https://releases.samplescout.app/CHANGELOG.md)
+- [Changelog](https://dl.samplescout.app/CHANGELOG.md)
 - [All Releases](https://github.com/thelastdoreo/sample-scout-app/releases)

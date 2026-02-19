@@ -1,3 +1,29 @@
+## v0.2.2 (2026-02-19)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.2.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_universal.dmg) |
+| Windows | [Sample-Scout_0.2.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_x64-setup.exe) |
+| Linux | [Sample-Scout_0.2.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- graceful collection removal with offline sample support
+- permanent download links via dl.samplescout.app
+
+### Fixes
+- walk up path hierarchy when browse pane shows empty results
+- orphaned samples show visual selection without audio playback
+- make fade widths absolute instead of clip-relative
+
+### Other
+- ui: update view mode tooltip to clarify flat view behavior
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.1...v0.2.2
+
 ## v0.2.1 (2026-02-19)
 
 ### Download

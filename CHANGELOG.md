@@ -1,4 +1,4 @@
-## v0.2.1 (2026-02-10)
+## v0.2.1 (2026-02-19)
 
 ### Download
 
@@ -10,18 +10,7 @@
 
 *Other files listed below are for the auto-updater and can be ignored.*
 
-### Features
-- progressive folder updates during library scanning
-
-### Fixes
-- prevent white flash during startup
-- tag library click not registering when filter text is active
-- consolidate log directory under sample-scout data path
-
-### Other
-- unify startup scan events with regular scan conventions
-
-**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.0...v0.2.1
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.2...v0.2.1
 
 ## v0.2.0 (2026-02-08)
 

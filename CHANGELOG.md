@@ -1,3 +1,24 @@
+## v0.2.3 (2026-02-25)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.2.3_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_universal.dmg) |
+| Windows | [Sample-Scout_0.2.3_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_x64-setup.exe) |
+| Linux | [Sample-Scout_0.2.3_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- add playback volume control with real-time stereo dB metering
+- inline set rename in export dialog (thanks decurus!)
+
+### Fixes
+- remove unused volumeToDbString to fix release build
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.2...v0.2.3
+
 ## v0.2.2 (2026-02-19)
 
 ### Download

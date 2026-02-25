@@ -1,23 +1,23 @@
 {
-  "version": "0.2.2",
-  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_0.2.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_universal.dmg) |\n| Windows | [Sample-Scout_0.2.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_x64-setup.exe) |\n| Linux | [Sample-Scout_0.2.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n### Features\n- graceful collection removal with offline sample support\n- permanent download links via dl.samplescout.app\n\n### Fixes\n- walk up path hierarchy when browse pane shows empty results\n- orphaned samples show visual selection without audio playback\n- make fade widths absolute instead of clip-relative\n\n### Other\n- ui: update view mode tooltip to clarify flat view behavior\n\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.1...v0.2.2",
-  "pub_date": "2026-02-19T01:50:31Z",
+  "version": "0.2.3",
+  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_0.2.3_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_universal.dmg) |\n| Windows | [Sample-Scout_0.2.3_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_x64-setup.exe) |\n| Linux | [Sample-Scout_0.2.3_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n### Features\n- add playback volume control with real-time stereo dB metering\n- inline set rename in export dialog (thanks decurus!)\n\n### Fixes\n- remove unused volumeToDbString to fix release build\n\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.2.2...v0.2.3",
+  "pub_date": "2026-02-25T17:48:42Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjJmdjNjUUNEYURkWURBQ09qbHpjL3hQZnUrQjRHZENORHlEOUhvNDZ5VkhlY05jZW9qUTNkTGtNV25FbFVZSmJCVU41MjFrL0NqYjFRZXhaMUNsdGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNDY1NDc0CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKSktlaXZkTXJ1ekpXZHkxbHBTblBra1VmMjNKNkg5S0ZKN1Nrb1YrOXZValIrcFlURDJ1OFF4Wkpxa09tZW8yMmIvdjZUSTdJZHpDY1VzWGJnc2R6Q0E9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjlMdTdrbU0zTW1BbEdNQ0tDVldOWVlMRERZS3V3ZFVMbGRZMStraFBpQ0lkK1c2eFJZRHVYQXNLRHJ3WnVLMDhIRVc5ZHRmNnhNTHhNZ21VUjVBZ1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDMzNDA5CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKeitTZWlLektreTZhR3FSTC9zd3pqNEFQc0RFTlpzUE9CWEVxNVA5VmZlc0FZRStHamN4SFovc0dmRDhvTUFWWVhEWXB6dlU3UTdUM2NIY0pWQ0pHQ2c9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjJmdjNjUUNEYURkWURBQ09qbHpjL3hQZnUrQjRHZENORHlEOUhvNDZ5VkhlY05jZW9qUTNkTGtNV25FbFVZSmJCVU41MjFrL0NqYjFRZXhaMUNsdGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNDY1NDc0CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKSktlaXZkTXJ1ekpXZHkxbHBTblBra1VmMjNKNkg5S0ZKN1Nrb1YrOXZValIrcFlURDJ1OFF4Wkpxa09tZW8yMmIvdjZUSTdJZHpDY1VzWGJnc2R6Q0E9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjlMdTdrbU0zTW1BbEdNQ0tDVldOWVlMRERZS3V3ZFVMbGRZMStraFBpQ0lkK1c2eFJZRHVYQXNLRHJ3WnVLMDhIRVc5ZHRmNnhNTHhNZ21VUjVBZ1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDMzNDA5CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKeitTZWlLektreTZhR3FSTC9zd3pqNEFQc0RFTlpzUE9CWEVxNVA5VmZlc0FZRStHamN4SFovc0dmRDhvTUFWWVhEWXB6dlU3UTdUM2NIY0pWQ0pHQ2c9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjFOcjduOTdDblRtSlRlM3hMSmNPbUl0RERQaWt3WVV6YnZpTTZOM1ZtNlQ3ckVIK3o2cFBTZjdhMGtIUHBmVGtucENhWFFMYlQxWHlUcERjZTlPcndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNDY1NjcyCWZpbGU6U2FtcGxlIFNjb3V0XzAuMi4yX3g2NC1zZXR1cC5leGUKZU40clBDWGp2VUIzbkNQTlBkS0wxRXlFa3N6VnpmUUczNjQ1YVUyT0N4TzJWWnNTY1VNa2RIZE53aHlMTklPSi9sR09uQ2hhWFo5VU9sR3dqK0hyQmc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnpKQ0dCWFJvNmlYcE9oUDRrUEdWanJ4ZnpXSjBGYnIwVHhhLzA4UDRHVUhhdGhtUDZUd09rRUwzVUt5UStVam45S2orOUNUalRId2NOUC9XZXpPa3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDM0MDc3CWZpbGU6U2FtcGxlIFNjb3V0XzAuMi4zX3g2NC1zZXR1cC5leGUKK0ZlZGsvdW1Vck96UzI5WjBvRVo3TnBodGpaRXc5b1N5R0J6MEdxUVhjYXdnTDVuQkNyRzlRZ3FJSWcyQzQ1cm94VWFLbkJjalhFaTNVcXBMZVNzQWc9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.2/Sample-Scout_0.2.2_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.2.3/Sample-Scout_0.2.3_amd64.deb"
     }
   }
 }

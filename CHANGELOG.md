@@ -1,3 +1,48 @@
+## v0.3.1 (2026-02-26)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.3.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.3.1/Sample-Scout_0.3.1_universal.dmg) |
+| Windows | [Sample-Scout_0.3.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.3.1/Sample-Scout_0.3.1_x64-setup.exe) |
+| Linux | [Sample-Scout_0.3.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.3.1/Sample-Scout_0.3.1_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+# v0.3.1
+
+## Fixes
+- Migration system overhauled — all schema changes now run in order alongside data changes, fixing a status backfill ordering bug on first launch
+- Fixed invalid SQL in scanner upsert that caused BPM values (`bpm_beatthis`, `bpm_acf`) to not save correctly
+- Fixed collection ID backfill using the wrong path separator on Windows
+- Offline grace period redesigned — tracks when grace started rather than counting from last validation, adds a `GraceExpiredPending` state so returning users can revalidate before being blocked
+
+## Infrastructure
+- ONNX Runtime now loaded dynamically from a bundled shared library, enabling universal macOS builds (x86_64 + arm64)
+
+# v0.3.0
+
+## New Features
+- **Audio analysis pipeline** — Two-tier BPM and key detection powered by ONNX neural networks, with tag/filename extraction as a fast first pass before deep analysis
+- **Always-visible analysis fields** — BPM/key columns with confidence values and informational tooltips
+- **Non-destructive sample lifecycle** — Handles missing and orphaned files gracefully instead of deleting records
+
+## Fixes
+- DB-driven analysis flags prevent re-analysis and infinite retry loops
+- Analysis update events now emit proper COALESCE'd display values
+- Re-probe files missing `metadata_version` so filename-derived BPM takes priority
+- Tier 2 analysis and live result updates work correctly in the set pane
+- Dual analysis flag maps with correct timing and pitch fields on sets
+- Fixed missing `SELECT` keyword in `get_set_samples` query
+- Analysis tooltips reordered to lead with user-relevant info
+
+## Performance
+- Removed DB mutex from worker queue path, restoring lock-free architecture for big performance gains
+
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.3.1...v0.3.1
+
 ## v0.2.3 (2026-02-25)
 
 ### Download

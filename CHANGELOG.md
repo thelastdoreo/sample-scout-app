@@ -1,3 +1,23 @@
+## v0.3.2 (2026-03-05)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.3.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.3.2/Sample-Scout_0.3.2_universal.dmg) |
+| Windows | [Sample-Scout_0.3.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.3.2/Sample-Scout_0.3.2_x64-setup.exe) |
+| Linux | [Sample-Scout_0.3.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.3.2/Sample-Scout_0.3.2_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- add Legacy WAV export option for classic hardware/software compatibility (Thanks @mylarmelodies!)
+### Fixes
+- lock bit depth to 16-bit when Legacy WAV is enabled
+- write scan_errors.log to app logs directory, bump to 0.3.2
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.3.2...v0.3.2
+
 ## v0.3.1 (2026-02-26)
 
 ### Download

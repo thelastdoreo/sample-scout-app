@@ -10,78 +10,46 @@
 
 *Other files listed below are for the auto-updater and can be ignored.*
 
-Previous release: v0.3.2
+# v0.4.0 — The Editor
 
-### Features
-- add Legacy WAV export option for classic hardware/software compatibility (Thanks @mylarmelodies!)
-- resizable editor panel with drag handle
-- scrollbar zoom, panel exclusivity, footer button consistency
-- disambiguate clip identity — memberId-based highlights, editor clip management
-- auto-zoom editor viewport to frame clip region on load
-- editor visual overhaul — corner frames, overlay blend modes, glow enhancements
-- marker-based loop stop, DRY cpal callback helper
-- editor playback with live state, looping, and position tracking
-- layered caching pipeline, fade rendering + interaction
-- clips badge with registry dropdown, wire delete button
-- clip-aware preload system with member_id cache keys
-- wire clip extraction to sets (E and Shift+E)
-- wire editor keyboard actions (nudge, jump, landmark, delete)
-- wire editor toolbar, shared transport buttons, loop state
-- pointer-events passthrough, coordinate-based edge detection, hover highlight
-- interaction hooks, clip overlay, and play cursor tracking
-- editor overlay components — play cursor, playback indicator, clip region
-- editor zoom/pan with wheel, drag, and keyboard support
-- waveform fill+stroke with offscreen compositing
-- waveform envelope rendering with screen blend mode
-- EditorWaveform LCD background with effects, noise, and ticks
-- EditorPanel layout, editor state, and keyboard wiring
-- regression testing baseline — 21 new tests, fix clip name bug
-- clip export pipeline with trim, fade, and per-item decision tree
-- frontend member_id migration, DRY membership tracking
-- clip CRUD commands, member_id universal identity, evolve set operations
-- add editor keyboard context with browserOpen/editorOpen state conditions
-- bounded playback with clip bounds and fade curves
-- add clips schema, evolve SetSample to Clip type, duration to number
+### Introducing Clips
+
+To support our editor I've now brought a concept of **clips** — a metadata-only format that has all the fade and cut data but behaves throughout the app just like samples do. Clips aren't real audio until you export them. Create them, recall them, refine them, and they stay linked to the source audio they came from.
+
+### The Workflow
+
+- Create clips from longer files and add them directly to your sets
+- Easily add fades with custom curves to define clip boundaries
+- Real-time preview means you hear exactly what your clip will sound like
+- Clips are non-destructive until export — no wasted disk space while you experiment. When you do export, the system is smart about doing the least work necessary and carries forward file attributes already defined
+- Clip badge in the editor gives you quick access to all clips on a sample — recall, rename, or delete from one place
+- Clips auto-name themselves based on the source filename, and you can rename them inline from the clip badge dropdown or in the set pane
+
+### The Editor
+
+- Built a new **Editor panel** from scratch for viewing and working with audio at the waveform level. Open it with the new Editor button next to the detail pane info button in the playback area.
+- Purpose-built waveform renderer using offscreen compositing for a clean look that maintains the app's overall feel.
+- Editor area has adjustable height so you can balance browser and editor to your preference
+- While the browser requires simple input and speed, the editor requires precision. Mouse controls are central because they feel natural in this context: Navigate with zoom, pan, scroll wheel, click-drag, and select keyboard shortcuts
+- Careful attention paid to interaction feel and performance — precise mouse hit testing, smooth hover states, and visual feedback with a goal to work naturally and intuitively
+- Clips open directly to their region so you're immediately looking at the relevant content
+
+### Playback Engine
+
+- Overhauled the playback system to support editor features, including brand new looping functionality
+- A lot of work went into making the clip system interact with the existing app flow in a way that feels seamless and transparent
+- Deep integration with the existing app — shared transport controls, unified state
+
+### Under the Hood
+
+- Caching improvements across the board for better responsiveness — layered caching pipeline, sprite caching, pre-composited static layers
+- Extensive tuning and refinement of editor visuals, scrollbar behavior, toolbar consistency, and playback smoothness - still WIP. Expect more polish and changes
+- Added a regression testing suite to maintain performance and quality as the editor evolves
 
 ### Fixes
-- reduce editor zoom sensitivity and fix fade fill scaling on vertical resize
-- move blend modes from CSS to canvas compositing for macOS WebKit
-- add missing ContinuousTimecode component
-- remove duplicate cherry-picked export code, integrate legacy WAV into export.rs
-- lock bit depth to 16-bit when Legacy WAV is enabled
-- write scan_errors.log to app logs directory, bump to 0.3.2
-- update editor panel footer hints, tooltips, and clip badge hover
-- add 10px threshold before scrollbar Y-axis zoom activates
-- clip recall restores region without viewport reset, rename syncs set pane
-- smooth editor playback indicator and prevent overflow scrollbar
-- prevent tooltip visibility changes from re-rendering all consumers
-- reject empty rename input and add volume control to editor
-- editor tooltips and inline clip rename
-- use memberId for set removal to correctly handle clips
-- position ring eliminates cross-thread race in loop playback
-- pause before seek in toggleLoop to prevent auto-restart
-- decouple loop stop from reached_eof, declarative toggleLoop(reset)
-- seekTo source of truth, editor cursor playback, fade opacity
-- fade handle polish — hit testing, hover states, visual tuning
-- clip auto-naming uses filename and max number
-- clip name in sets + streaming playback start from clip position
-- restore deleted samples at original position, not end of set
-- membership map lookups use member_id format, DetailPanel takes playingMemberId
 
-### Other
-- editor tuning — remove playback smoothing, lower scroll zoom, select-none waveform
-- editor visual tuning — scrollbar, toolbar, footer consistency
-- add color palette mockup
-- memoize RowContent to prevent hover flash on play/stop
-- isolate isCurrentlyPlaying from SampleScout render cycle
-- isolate playback position and levels from SampleScout render cycle
-- default editor height to 50%
-- editor visual tuning — clip fill, corners, cursor, background
-- restore per-element overlay architecture, 9-slice base layer
-- persistent sprite canvases, fade fill sprite caching
-- pre-composite static layer, eliminate hot-path redraws during fade drags
-- noise tile optimization, time ruler, static layer split
-**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.3.2...v0.4.0
+- Deleted samples now restore to their original position in a set, not appended to the end
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.0...v0.4.0
 
 ## v0.3.2 (2026-03-05)
 

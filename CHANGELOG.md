@@ -1,3 +1,26 @@
+## v0.4.1 (2026-03-08)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.4.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_universal.dmg) |
+| Windows | [Sample-Scout_0.4.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_x64-setup.exe) |
+| Linux | [Sample-Scout_0.4.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- show CLIP label instead of file size for clips in set pane
+- show clip bounds on detail pane waveform
+- improve detail pane tag drawer and spacing
+- redesign detail pane layout, spacing, and tag styling
+
+### Fixes
+- playback bar uses clip positions for clip-relative progress
+- pass correct memberId to detail pane for set membership lookup
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.0...v0.4.1
+
 ## v0.4.0 (2026-03-07)
 
 ### Download

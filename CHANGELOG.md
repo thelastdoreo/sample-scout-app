@@ -1,3 +1,26 @@
+## v0.4.2 (2026-03-10)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.4.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_universal.dmg) |
+| Windows | [Sample-Scout_0.4.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_x64-setup.exe) |
+| Linux | [Sample-Scout_0.4.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- click-to-seek on waveform during editor playback
+- add editor shortcut (C) to help screen
+
+### Fixes
+- analysis updates not reaching detail pane due to snake_case mismatch
+- tune editor overlay glow values — 8px blur, consistent opacity, double-pass corner glow
+- replace canvas sprites with DOM divs for play cursor and playback indicator
+- correct editor toggle tooltip shortcut key (F → C)
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.1...v0.4.2
+
 ## v0.4.1 (2026-03-08)
 
 ### Download

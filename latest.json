@@ -1,23 +1,23 @@
 {
-  "version": "0.4.1",
-  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_0.4.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_universal.dmg) |\n| Windows | [Sample-Scout_0.4.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_x64-setup.exe) |\n| Linux | [Sample-Scout_0.4.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n### Features\n- show CLIP label instead of file size for clips in set pane\n- show clip bounds on detail pane waveform\n- improve detail pane tag drawer and spacing\n- redesign detail pane layout, spacing, and tag styling\n\n### Fixes\n- playback bar uses clip positions for clip-relative progress\n- pass correct memberId to detail pane for set membership lookup\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.0...v0.4.1",
-  "pub_date": "2026-03-08T06:22:37Z",
+  "version": "0.4.2",
+  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_0.4.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_universal.dmg) |\n| Windows | [Sample-Scout_0.4.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_x64-setup.exe) |\n| Linux | [Sample-Scout_0.4.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n### Features\n- click-to-seek on waveform during editor playback\n- add editor shortcut (C) to help screen\n\n### Fixes\n- analysis updates not reaching detail pane due to snake_case mismatch\n- tune editor overlay glow values — 8px blur, consistent opacity, double-pass corner glow\n- replace canvas sprites with DOM divs for play cursor and playback indicator\n- correct editor toggle tooltip shortcut key (F → C)\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.1...v0.4.2",
+  "pub_date": "2026-03-10T16:17:43Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcndTajlmRFMxWDdYTTkzNkpoMFpGUmZvTDVXVVJuQURibFk2R3dhSlB2R2dwekl5Q0M5Vk9UVU1vNU5WNzFUMm1nc0NVRXFMWGlnVFlDbEtEVHY5dlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyOTQ2NTgxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdHUrSnlBWWI3N0h3S0tKTGt1aWQ5OHNYb3M1dzNCYUVFUk5HeUd1S2hNV2xkbVNjUlRvZjdRUFZhWGRaT3RXZ1J0U0pkRkpsT3kwNDBOV2Y2d0F5Qnc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnhvMm5uem5LUlpDQ2NReGQwTDJuTUZBSG1iV1Z6eWFIMk84cjlkTEFMaTNmSkpXYkRXOTlSM3NCczlTS3dvM0RZMnpUT0xCQUZhRm1JKzZBYVRJTGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMTU5MDQzCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdmVLWnNOQnhMRnZxL0NidnVzL3grNlNNazhyTEREMmkwZlFVdHFoanRQMkFuRDEyRThvek9PMmdaQitFTTFib2lZZ2RONnR2dFFGM1NQdmgrSzdKQkE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcndTajlmRFMxWDdYTTkzNkpoMFpGUmZvTDVXVVJuQURibFk2R3dhSlB2R2dwekl5Q0M5Vk9UVU1vNU5WNzFUMm1nc0NVRXFMWGlnVFlDbEtEVHY5dlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyOTQ2NTgxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdHUrSnlBWWI3N0h3S0tKTGt1aWQ5OHNYb3M1dzNCYUVFUk5HeUd1S2hNV2xkbVNjUlRvZjdRUFZhWGRaT3RXZ1J0U0pkRkpsT3kwNDBOV2Y2d0F5Qnc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnhvMm5uem5LUlpDQ2NReGQwTDJuTUZBSG1iV1Z6eWFIMk84cjlkTEFMaTNmSkpXYkRXOTlSM3NCczlTS3dvM0RZMnpUT0xCQUZhRm1JKzZBYVRJTGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMTU5MDQzCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdmVLWnNOQnhMRnZxL0NidnVzL3grNlNNazhyTEREMmkwZlFVdHFoanRQMkFuRDEyRThvek9PMmdaQitFTTFib2lZZ2RONnR2dFFGM1NQdmgrSzdKQkE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjM4U3g1YjYxZkxWWTJydVlSTzEwVUwvZVRiYmxDWEczQVNoWCt0Y0lNd3drZDF6WTNzWk4rSE0vUFlVMnhSQ1ptMVhBbXZVUy9uSy9Bd3F5b2JWWFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyOTQ3MzIxCWZpbGU6U2FtcGxlIFNjb3V0XzAuNC4xX3g2NC1zZXR1cC5leGUKSDJqamNwTU5EUkdqS1k5dmhjd3JGZFIxdFZ6a2Iyb3loNWdEUHl6UUtCcnZYMmNnaVg5RHFnYlE0YnVLSjZPaGNFYU4ycVcxUnQ1M1E3SWgyeDh6Q0E9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjJFaStZUFlINUdKY01uU0FWZE0yN2JkZmVoMitHdVYrZEhuOVFJMXdrci8wS2FKcHJGbDBqNXlRSjRkUnc4SCtHYytRczhvcWtmei9mRUgvRDl2Y0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMTU5MjM0CWZpbGU6U2FtcGxlIFNjb3V0XzAuNC4yX3g2NC1zZXR1cC5leGUKTjNqS2pIbkxXSHZ6dmIyZmxPR3dBU2l2S2hzMjVHNzZzdjR0MVQxUVRuNllPRDlCUUhZNkcxNnRVRDR3ZHU5bTEyNC8xeksrbE1HaUN1N3JmVEtEREE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_amd64.deb"
     }
   }
 }

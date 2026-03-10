@@ -3,13 +3,13 @@
 A keyboard-first sample audition tool for music producers. Rapidly browse and audition your sample library using keyboard shortcuts.
 
 <!-- DOWNLOADS_START -->
-## Download v0.4.1
+## Download v0.4.2
 
 | Platform | Installer |
 |----------|-----------|
-| macOS | [Sample-Scout_0.4.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_universal.dmg) |
-| Windows | [Sample-Scout_0.4.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_x64-setup.exe) |
-| Linux | [Sample-Scout_0.4.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.1/Sample-Scout_0.4.1_amd64.deb) |
+| macOS | [Sample-Scout_0.4.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_universal.dmg) |
+| Windows | [Sample-Scout_0.4.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_x64-setup.exe) |
+| Linux | [Sample-Scout_0.4.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_amd64.deb) |
 <!-- DOWNLOADS_END -->
 
 ## Keyboard Shortcuts

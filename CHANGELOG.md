@@ -1,3 +1,33 @@
+## v0.4.3 (2026-03-12)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_0.4.3_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_universal.dmg) |
+| Windows | [Sample-Scout_0.4.3_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_x64-setup.exe) |
+| Linux | [Sample-Scout_0.4.3_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- adaptive time ruler with colon format and letter spacing
+- multi-resolution waveform system for editor zoom
+- pre-rendered drag exports with Clip-typed pipeline
+
+### Fixes
+- dispatch synthetic pointerup after external drag to prevent text selection
+- drag export respects clip custom name instead of using cached filename
+- use actual pointer position for drag-out-of-window detection
+- use time-based zoom cap (50ms min visible window)
+- unblock UI during fine waveform generation
+- increase fine waveform resolution and add short-file guard
+- stale closures in ctrl+click and shift+click multi-select
+
+### Other
+- change multi-drag count badge color to neon-orange
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.2...v0.4.3
+
 ## v0.4.2 (2026-03-10)
 
 ### Download

@@ -1,23 +1,23 @@
 {
-  "version": "0.4.2",
-  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_0.4.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_universal.dmg) |\n| Windows | [Sample-Scout_0.4.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_x64-setup.exe) |\n| Linux | [Sample-Scout_0.4.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n### Features\n- click-to-seek on waveform during editor playback\n- add editor shortcut (C) to help screen\n\n### Fixes\n- analysis updates not reaching detail pane due to snake_case mismatch\n- tune editor overlay glow values — 8px blur, consistent opacity, double-pass corner glow\n- replace canvas sprites with DOM divs for play cursor and playback indicator\n- correct editor toggle tooltip shortcut key (F → C)\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.1...v0.4.2",
-  "pub_date": "2026-03-10T16:17:43Z",
+  "version": "0.4.3",
+  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_0.4.3_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_universal.dmg) |\n| Windows | [Sample-Scout_0.4.3_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_x64-setup.exe) |\n| Linux | [Sample-Scout_0.4.3_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n### Features\n- adaptive time ruler with colon format and letter spacing\n- multi-resolution waveform system for editor zoom\n- pre-rendered drag exports with Clip-typed pipeline\n\n### Fixes\n- dispatch synthetic pointerup after external drag to prevent text selection\n- drag export respects clip custom name instead of using cached filename\n- use actual pointer position for drag-out-of-window detection\n- use time-based zoom cap (50ms min visible window)\n- unblock UI during fine waveform generation\n- increase fine waveform resolution and add short-file guard\n- stale closures in ctrl+click and shift+click multi-select\n\n### Other\n- change multi-drag count badge color to neon-orange\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.2...v0.4.3",
+  "pub_date": "2026-03-12T05:25:07Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnhvMm5uem5LUlpDQ2NReGQwTDJuTUZBSG1iV1Z6eWFIMk84cjlkTEFMaTNmSkpXYkRXOTlSM3NCczlTS3dvM0RZMnpUT0xCQUZhRm1JKzZBYVRJTGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMTU5MDQzCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdmVLWnNOQnhMRnZxL0NidnVzL3grNlNNazhyTEREMmkwZlFVdHFoanRQMkFuRDEyRThvek9PMmdaQitFTTFib2lZZ2RONnR2dFFGM1NQdmgrSzdKQkE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjBqdW5lWHVySXlPd3VaZ2ZNMEJlUHJiSmhlM0pYdmlScVd5L25IMmt1Z2dnVWM1d0JKQW83WkZpZThDNVN3L3NWdndwamFTTzlWMGJ5NkJFdlhaYlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMjkxODE1CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKZkh0ZGQ1V0N5bmxLak81QnVpbk0wYTFBb0Zsb0trVk13UWVVSUdyR0JvTHg4aEcwTllDRlpmcldIdnA5UldrdXUrUmJBVlFGWUZ4ZUo4Z3BjYitNQ2c9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnhvMm5uem5LUlpDQ2NReGQwTDJuTUZBSG1iV1Z6eWFIMk84cjlkTEFMaTNmSkpXYkRXOTlSM3NCczlTS3dvM0RZMnpUT0xCQUZhRm1JKzZBYVRJTGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMTU5MDQzCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdmVLWnNOQnhMRnZxL0NidnVzL3grNlNNazhyTEREMmkwZlFVdHFoanRQMkFuRDEyRThvek9PMmdaQitFTTFib2lZZ2RONnR2dFFGM1NQdmgrSzdKQkE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjBqdW5lWHVySXlPd3VaZ2ZNMEJlUHJiSmhlM0pYdmlScVd5L25IMmt1Z2dnVWM1d0JKQW83WkZpZThDNVN3L3NWdndwamFTTzlWMGJ5NkJFdlhaYlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMjkxODE1CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKZkh0ZGQ1V0N5bmxLak81QnVpbk0wYTFBb0Zsb0trVk13UWVVSUdyR0JvTHg4aEcwTllDRlpmcldIdnA5UldrdXUrUmJBVlFGWUZ4ZUo4Z3BjYitNQ2c9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjJFaStZUFlINUdKY01uU0FWZE0yN2JkZmVoMitHdVYrZEhuOVFJMXdrci8wS2FKcHJGbDBqNXlRSjRkUnc4SCtHYytRczhvcWtmei9mRUgvRDl2Y0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMTU5MjM0CWZpbGU6U2FtcGxlIFNjb3V0XzAuNC4yX3g2NC1zZXR1cC5leGUKTjNqS2pIbkxXSHZ6dmIyZmxPR3dBU2l2S2hzMjVHNzZzdjR0MVQxUVRuNllPRDlCUUhZNkcxNnRVRDR3ZHU5bTEyNC8xeksrbE1HaUN1N3JmVEtEREE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjR6b25za1FaUjRTMGJoWENvYWVVWEdwd0E2R2wwZUxNaHMzOW53M0NqYTBSWXlTQldnUzBmWlFleXB3VmRXVW9NOXBNMTZoNDdZM2VhbzhmaCthQ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMjkyNDM1CWZpbGU6U2FtcGxlIFNjb3V0XzAuNC4zX3g2NC1zZXR1cC5leGUKWWdaVWZmUXg0N05CSVFIZHphYURoZElKM0Q1NHk4RFEvSDZDODVJTSs5bmJRL1QyOHBQYkZva0VyZ2lLQ0o4Wm5tSnpZdU5QWFBxalp0OEZ0WFMwRGc9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.2/Sample-Scout_0.4.2_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v0.4.3/Sample-Scout_0.4.3_amd64.deb"
     }
   }
 }

@@ -1,3 +1,65 @@
+## v1.0.0 (2026-03-16)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.0_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.0/Sample-Scout_1.0.0_universal.dmg) |
+| Windows | [Sample-Scout_1.0.0_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.0/Sample-Scout_1.0.0_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.0_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.0/Sample-Scout_1.0.0_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Introduction
+
+A keyboard-first sample audition tool built for speed. Browse, audition, clip, and export — without leaving the keyboard.
+
+### Browse
+
+- Keyboard-driven file browser — arrow keys fly through your library with instant audio preview on every selection
+- Autoplay mode (`P`) lets every navigation instantly play — hold down-arrow to audition 10-20 samples per second
+- Point at any collection: multi-million file libraries, external drives, network storage
+- Search by filename, filter by folder, or use `tag:name` syntax to search by tag
+- BPM and key detection — fast extraction from tags and filenames, with neural network deep analysis as a second pass
+- Detail pane shows waveform preview, metadata, notes, tags, and file info at a glance
+
+### Sets
+
+- Press `E` to add any sample to your set — no stopping, no context switching
+- Multi-select with Shift+Click and Ctrl+Click — bulk add, remove, and drag
+- Delete history with preview and one-click restore
+- Build sets while browsing, export when ready
+
+### Editor
+
+- Inline waveform editor — clip regions by dragging directly on the waveform
+- Clips are non-destructive metadata regions linked to source audio — no disk space wasted while you experiment
+- Drag fade handles with custom curves and immediate audio feedback
+- Loop selections to audition your work before committing
+- Click-to-seek, scroll-to-zoom, drag-to-pan — mouse-driven precision where it matters
+- Clip badge dropdown for quick access to all clips on a sample — recall, rename, or delete
+
+### Export
+
+- Full DSP chain: bit depth conversion, TPDF dithering, mono downmix, normalization, and limiting
+- Export presets with persistent settings across sessions
+- Legacy WAV mode for classic hardware and software compatibility
+- Drag and drop samples straight into your DAW — clips render on demand
+- Manifest file documents exactly what processing was applied
+
+### General
+
+- Help overlay (`?`) with full keyboard shortcut reference
+- Auto-updater with download progress on macOS and Windows; update notifications on Linux
+
+### Platform Support
+
+- macOS (Intel & Apple Silicon) — macOS 12 Monterey or later
+- Windows 10+ (64-bit)
+- Linux (Debian/Ubuntu .deb) — Ubuntu 22.04+, Debian 12+
+- APT repository for automatic updates on Linux
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v0.4.3...v1.0.0
+
 ## v0.4.3 (2026-03-12)
 
 ### Download

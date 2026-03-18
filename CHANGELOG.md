@@ -1,3 +1,26 @@
+## v1.0.1 (2026-03-18)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.1/Sample-Scout_1.0.1_universal.dmg) |
+| Windows | [Sample-Scout_1.0.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.1/Sample-Scout_1.0.1_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.1/Sample-Scout_1.0.1_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+### Features
+- D key toggles playback when selected sample matches playing sample
+
+### Fixes
+- eliminate playback indicator racing and duration flicker on sample start
+- remove autoFocus on export path input and handle Escape properly
+
+### Other
+- ui: reorganize and clean up help dialog shortcuts
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.0...v1.0.1
+
 ## v1.0.0 (2026-03-16)
 
 ### Download

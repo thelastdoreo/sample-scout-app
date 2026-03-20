@@ -1,3 +1,18 @@
+## v1.0.3 (2026-03-20)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.3_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.3/Sample-Scout_1.0.3_universal.dmg) |
+| Windows | [Sample-Scout_1.0.3_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.3/Sample-Scout_1.0.3_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.3_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.3/Sample-Scout_1.0.3_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.2...v1.0.3
+
 ## v1.0.2 (2026-03-19)
 
 ### Download

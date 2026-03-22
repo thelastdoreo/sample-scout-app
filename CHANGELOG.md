@@ -1,3 +1,27 @@
+## v1.0.4 (2026-03-22)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.4_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.4/Sample-Scout_1.0.4_universal.dmg) |
+| Windows | [Sample-Scout_1.0.4_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.4/Sample-Scout_1.0.4_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.4_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.4/Sample-Scout_1.0.4_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+**Features**
+- editor waveform reflects fade amplitude with column-slice squeeze
+- ui: refine shortcut hints and tooltip content for better clarity
+
+**Fixes**
+- exclude offline files from search results
+- always apply fade-in regardless of playback start position
+- clamp fade widths to clip duration at rendering boundaries
+- release notes generation and workflow ingestion
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.3...v1.0.4
+
 ## v1.0.3 (2026-03-20)
 
 ### Download

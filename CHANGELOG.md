@@ -1,3 +1,43 @@
+## v1.0.5 (2026-04-01)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.5_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.5/Sample-Scout_1.0.5_universal.dmg) |
+| Windows | [Sample-Scout_1.0.5_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.5/Sample-Scout_1.0.5_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.5_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.5/Sample-Scout_1.0.5_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+# Draft Patch Notes — v1.0.5
+
+Previous release: v1.0.4
+
+### Features
+- license modal redesign and onboarding improvements
+- tutorial polish — animation overrides, dialog steps, and styling
+- tutorial script refinements and engine hardening
+- step exit animation with fade-out and pause
+- tutorial animations, styling, and pacing improvements
+- getting started tutorial script
+- auto-polling completion checks for DOM state changes
+- dual key notifications, intercept keys, and case-sensitive matching
+- add tutorial walkthrough engine
+- add onboarding dialog for first-run collection setup
+
+### Fixes
+- progressive waveform rendering stalled on long files
+- step 2 callout position — use ratio 0 to align with highlight top
+- overlay click handling and callout styling
+- separate control/data channels and reliable scan cancellation
+
+### Other
+- ui: tutorial script and dialog polish
+- ui: polish license modal and success animation
+- add test tutorial script and data-tutorial attributes
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.4...v1.0.5
+
 ## v1.0.4 (2026-03-22)
 
 ### Download

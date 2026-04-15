@@ -1,3 +1,29 @@
+## v1.0.6 (2026-04-15)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.6_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.6/Sample-Scout_1.0.6_universal.dmg) |
+| Windows | [Sample-Scout_1.0.6_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.6/Sample-Scout_1.0.6_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.6_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.6/Sample-Scout_1.0.6_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+**Sets & Collections**
+
+- Sets are now browsable! Open any set to navigate its contents just like a folder.
+- New Browse Set option is accessible as a new folder item on the Select Set dialog.
+- New Category switcher is a dropdown on the folder icon in the breadcrumb header allowing you to quickly choose browsing sets or collections.
+- New context menu item for Browse Set on the set membership badges in the detail pane.
+- Browse, rename, and delete buttons in the set select dialog now show tooltips.
+
+**UI Polish**
+
+- Empty state messages now appear in folders, sets, and collections with no items.
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.5...v1.0.6
+
 ## v1.0.5 (2026-04-01)
 
 ### Download

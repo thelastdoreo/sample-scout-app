@@ -1,3 +1,21 @@
+## v1.0.7 (2026-05-02)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.7_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.7/Sample-Scout_1.0.7_universal.dmg) |
+| Windows | [Sample-Scout_1.0.7_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.7/Sample-Scout_1.0.7_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.7_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.7/Sample-Scout_1.0.7_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+### Keyboard Navigation
+
+- Pressing `V` to toggle between folder and flat view now works correctly. Previously, the keyboard shortcut updated the toggle state but didn't reload the file listing — only the header button worked. Both now behave identically.
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.6...v1.0.7
+
 ## v1.0.6 (2026-04-15)
 
 ### Download

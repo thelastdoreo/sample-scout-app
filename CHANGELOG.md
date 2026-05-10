@@ -1,3 +1,22 @@
+## v1.0.8 (2026-05-10)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.8_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_universal.dmg) |
+| Windows | [Sample-Scout_1.0.8_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.8_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+### Audio Engine
+
+- Fixed an edge case with multi-output audio interfaces (Expert Sleepers ES-9, MOTU, RME, etc.) — stereo playback now routes cleanly to outputs 1/2. Built-in speakers and stereo interfaces were unaffected.
+- macOS no longer prompts for microphone permission on launch. This was a bug in an upstream audio library — not in Sample Scout itself — and has been resolved. The app has never recorded or used the microphone.
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.7...v1.0.8
+
 ## v1.0.7 (2026-05-02)
 
 ### Download

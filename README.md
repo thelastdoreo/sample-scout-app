@@ -12,25 +12,6 @@ A keyboard-first sample audition tool for music producers. Rapidly browse and au
 | Linux | [Sample-Scout_1.0.8_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_amd64.deb) |
 <!-- DOWNLOADS_END -->
 
-## Keyboard Shortcuts
-
-| Key | Action |
-|-----|--------|
-| `↑/↓` Arrow keys | Navigate up/down |
-| `Enter` | Enter folder |
-| `Backspace` | Go up one level |
-| `Tab` | Switch panes |
-| `Home/End` | Jump to top/bottom |
-| `Space` | Play/Pause |
-| `←/→` Arrow keys | Seek -/+ 10 seconds |
-| `p` | Toggle autoplay |
-| `v` | Toggle folder/flat view |
-| `a` | Add to active set |
-| `d` | Remove from set |
-| `n` | New set |
-| `s` | Switch active set |
-| `i` | Toggle info panel |
-
 ## Linux APT Repository
 
 ```bash

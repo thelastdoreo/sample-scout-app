@@ -1,3 +1,21 @@
+## v1.0.9 (2026-05-15)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.9_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.9/Sample-Scout_1.0.9_universal.dmg) |
+| Windows | [Sample-Scout_1.0.9_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.9/Sample-Scout_1.0.9_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.9_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.9/Sample-Scout_1.0.9_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+### Stability
+
+- Adjusted stack management and queueing to address an edge case that could crash the app during library scanning on Windows, and hardened several audio worker-thread paths in the process.
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.8...v1.0.9
+
 ## v1.0.8 (2026-05-10)
 
 ### Download

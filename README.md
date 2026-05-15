@@ -3,13 +3,13 @@
 A keyboard-first sample audition tool for music producers. Rapidly browse and audition your sample library using keyboard shortcuts.
 
 <!-- DOWNLOADS_START -->
-## Download v1.0.8
+## Download v1.0.9
 
 | Platform | Installer |
 |----------|-----------|
-| macOS | [Sample-Scout_1.0.8_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_universal.dmg) |
-| Windows | [Sample-Scout_1.0.8_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_x64-setup.exe) |
-| Linux | [Sample-Scout_1.0.8_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.8/Sample-Scout_1.0.8_amd64.deb) |
+| macOS | [Sample-Scout_1.0.9_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.9/Sample-Scout_1.0.9_universal.dmg) |
+| Windows | [Sample-Scout_1.0.9_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.9/Sample-Scout_1.0.9_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.9_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.9/Sample-Scout_1.0.9_amd64.deb) |
 <!-- DOWNLOADS_END -->
 
 ## Linux APT Repository

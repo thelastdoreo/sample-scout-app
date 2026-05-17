@@ -1,3 +1,27 @@
+## v1.0.10 (2026-05-17)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.10_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_universal.dmg) |
+| Windows | [Sample-Scout_1.0.10_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.10_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+### Clip Dragging
+
+- Feat: The clip region can now be moved as a unit. A title bar runs along the top of the clip — dragging it moves the entire clip region along the timeline maintaining the timing. 
+
+### Search
+
+- Feat: Multi-word queries match each term independently. Typing "deep house kick" surfaces samples containing all three words in any order.
+- Fix: The search box releases its selection on blur, keeping global shortcuts responsive after leaving the field.
+- Fix: F focuses the search bar even when the waveform editor is open. Also fixed the issue with the search box not losing focus properly when opening the waveform editor.
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.9...v1.0.10
+
 ## v1.0.9 (2026-05-15)
 
 ### Download

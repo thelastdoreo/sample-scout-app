@@ -1,23 +1,23 @@
 {
-  "version": "1.0.10",
-  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_1.0.10_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_universal.dmg) |\n| Windows | [Sample-Scout_1.0.10_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_x64-setup.exe) |\n| Linux | [Sample-Scout_1.0.10_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n\n### Clip Dragging\n\n- Feat: The clip region can now be moved as a unit. A title bar runs along the top of the clip — dragging it moves the entire clip region along the timeline maintaining the timing. \n\n### Search\n\n- Feat: Multi-word queries match each term independently. Typing \"deep house kick\" surfaces samples containing all three words in any order.\n- Fix: The search box releases its selection on blur, keeping global shortcuts responsive after leaving the field.\n- Fix: F focuses the search bar even when the waveform editor is open. Also fixed the issue with the search box not losing focus properly when opening the waveform editor.\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.9...v1.0.10",
-  "pub_date": "2026-05-17T07:01:54Z",
+  "version": "1.0.11",
+  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_1.0.11_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_universal.dmg) |\n| Windows | [Sample-Scout_1.0.11_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_x64-setup.exe) |\n| Linux | [Sample-Scout_1.0.11_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n\n**Fixes**\n- Update Clip button now reliably clears the \"modified\" highlight after saving.\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.10...v1.0.11",
+  "pub_date": "2026-05-17T08:32:01Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjFPQUhsdWdOYjZ5UzUvcnVVbldUMWYyTFRaQit4bFVSZUoyN2hnSmpadjNzRmhzbUVqaDFOSlF5Z3dWa2xpckRGM09KdFYydVFvMFNxYUlzZXIzWFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDAxMTUwCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKakVmZXBERDIvMkNPN1hCZkQ4QzBOeTVBZm0zNWxTbUovYnJ6dkJVM3RGYXF5Wlk1Qk9odTFyd2ZqOUgvcTFSS2w5YkxxU2o1ZGFmbWxRMk10RUIzRFE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcndBUEtyOXBnUnBNbEVSdy9SMndnUHFNRlczZ1pYaXFkaXZ4dk02bVZTWW5CNldWM01UdzF3TXhLOHdTa0ozNXJZdktkdDlYSzA3aW85b05tbWt1ZkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDA2NTUxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKU3gzckR5TmF1dmtCUUFPNlY5UGpobWNuV0xuUFdMT3I1N2xMM01WY2duUXE2amVNVEw1TGEvNTVadUdtMnZMTDU4YVRzcU1wdjlZR0VMZDJ0cUZxQVE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjFPQUhsdWdOYjZ5UzUvcnVVbldUMWYyTFRaQit4bFVSZUoyN2hnSmpadjNzRmhzbUVqaDFOSlF5Z3dWa2xpckRGM09KdFYydVFvMFNxYUlzZXIzWFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDAxMTUwCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKakVmZXBERDIvMkNPN1hCZkQ4QzBOeTVBZm0zNWxTbUovYnJ6dkJVM3RGYXF5Wlk1Qk9odTFyd2ZqOUgvcTFSS2w5YkxxU2o1ZGFmbWxRMk10RUIzRFE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcndBUEtyOXBnUnBNbEVSdy9SMndnUHFNRlczZ1pYaXFkaXZ4dk02bVZTWW5CNldWM01UdzF3TXhLOHdTa0ozNXJZdktkdDlYSzA3aW85b05tbWt1ZkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDA2NTUxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKU3gzckR5TmF1dmtCUUFPNlY5UGpobWNuV0xuUFdMT3I1N2xMM01WY2duUXE2amVNVEw1TGEvNTVadUdtMnZMTDU4YVRzcU1wdjlZR0VMZDJ0cUZxQVE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnkzNDBMSGhQa1hnK3VYcWUzeG96L1dYZVU4U3FZbDNnNCtVaGN5eFdWd1VUTUF4NDE0RVJKYWltMDczcnpsTk9vdFgrSnhSMkNLbTJwNXNscWZZL2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDAxMTI5CWZpbGU6U2FtcGxlIFNjb3V0XzEuMC4xMF94NjQtc2V0dXAuZXhlClEreW5vVXFzV1g0TElzejR5YlBwaUFmcFBhQjd1K2lvMEFNVG9QVy9Ha1hvd1BSZ2xlQXdnczB0cWZ2Zkh6VlhsN0Y3eUJGZ0JINmlrWk02MCtRQkN3PT0K",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjRrTmlPR2haZ2ttbnM2MUYzM1VqU2ZuL0lwS1dRUjFKaWFqcFlLYmw3cmZmbHNYd01RbXNySTFrT1BYdzZjYnQ4ZmljSU1tdS8yQ3dZdG5wRlVyd1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDA2NDkwCWZpbGU6U2FtcGxlIFNjb3V0XzEuMC4xMV94NjQtc2V0dXAuZXhlClVlcUtxa2tHRWRqamozemx3UXhkUlJ2RU96REVTTWorU1lXdm9NN2x0Um9UdWpUSGxxRnhsaUFOazMwbGwzNzhTNjdCM0J4dzBWcm01WWFCWm9OQkJRPT0K",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.10/Sample-Scout_1.0.10_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_amd64.deb"
     }
   }
 }

@@ -1,3 +1,28 @@
+## v1.0.12 (2026-05-23)
+
+### Download
+
+| Platform | Installer |
+|----------|-----------|
+| macOS | [Sample-Scout_1.0.12_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_universal.dmg) |
+| Windows | [Sample-Scout_1.0.12_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_x64-setup.exe) |
+| Linux | [Sample-Scout_1.0.12_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_amd64.deb) |
+
+*Other files listed below are for the auto-updater and can be ignored.*
+
+
+**Features**
+- Customizable keyboard shortcuts. Edit keybindings.jsonc in the app data folder; tooltips, footer hints, the help dialog, and the tutorial all reflect the live keymap.
+- Status bar flags storage trouble when playback stalls past 10 seconds.
+
+**Fixes**
+- Library count reflects accessible samples — offline and orphaned files are no longer counted.
+- Library scanning rebuilt for stability on large folders, with a dedicated 8MB scan thread and a flat work pipeline.
+- Saved clips display their actual length, not the parent sample's duration.
+- Sets handle multiple clips of the same source file as independent entries.
+- Keybindings parse errors surface with per-line detail; the keybindings folder reveals reliably across platforms.
+**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.11...v1.0.12
+
 ## v1.0.11 (2026-05-17)
 
 ### Download

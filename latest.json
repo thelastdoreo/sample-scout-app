@@ -1,23 +1,23 @@
 {
-  "version": "1.0.11",
-  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_1.0.11_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_universal.dmg) |\n| Windows | [Sample-Scout_1.0.11_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_x64-setup.exe) |\n| Linux | [Sample-Scout_1.0.11_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n\n**Fixes**\n- Update Clip button now reliably clears the \"modified\" highlight after saving.\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.10...v1.0.11",
-  "pub_date": "2026-05-17T08:32:01Z",
+  "version": "1.0.12",
+  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_1.0.12_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_universal.dmg) |\n| Windows | [Sample-Scout_1.0.12_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_x64-setup.exe) |\n| Linux | [Sample-Scout_1.0.12_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n\n**Features**\n- Customizable keyboard shortcuts. Edit keybindings.jsonc in the app data folder; tooltips, footer hints, the help dialog, and the tutorial all reflect the live keymap.\n- Status bar flags storage trouble when playback stalls past 10 seconds.\n\n**Fixes**\n- Library count reflects accessible samples — offline and orphaned files are no longer counted.\n- Library scanning rebuilt for stability on large folders, with a dedicated 8MB scan thread and a flat work pipeline.\n- Saved clips display their actual length, not the parent sample's duration.\n- Sets handle multiple clips of the same source file as independent entries.\n- Keybindings parse errors surface with per-line detail; the keybindings folder reveals reliably across platforms.\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.0.11...v1.0.12",
+  "pub_date": "2026-05-23T18:52:21Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcndBUEtyOXBnUnBNbEVSdy9SMndnUHFNRlczZ1pYaXFkaXZ4dk02bVZTWW5CNldWM01UdzF3TXhLOHdTa0ozNXJZdktkdDlYSzA3aW85b05tbWt1ZkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDA2NTUxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKU3gzckR5TmF1dmtCUUFPNlY5UGpobWNuV0xuUFdMT3I1N2xMM01WY2duUXE2amVNVEw1TGEvNTVadUdtMnZMTDU4YVRzcU1wdjlZR0VMZDJ0cUZxQVE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjVGanp5emdzMEFMUG1lcTFZT3FwbFVTZ1AvejVjN3pUWGova253MXF1SjlmMnY1RVZ4d1Y0VG5JaUs3T0gzTXFSbktGOHYxa21iV1B3MWhVQXZBSnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NTYyMDQxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdmFiSEdRdjRCWWgrbVFPSmw5QVBRUXhnTFNDSmJMbDJEb0d3eFJVN3BKSk12aEJmTkl4bFdKWG5HNWxrUUtmWTNvUFd0Si85bEpQRTBIeWtjT2ZmRGc9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcndBUEtyOXBnUnBNbEVSdy9SMndnUHFNRlczZ1pYaXFkaXZ4dk02bVZTWW5CNldWM01UdzF3TXhLOHdTa0ozNXJZdktkdDlYSzA3aW85b05tbWt1ZkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDA2NTUxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKU3gzckR5TmF1dmtCUUFPNlY5UGpobWNuV0xuUFdMT3I1N2xMM01WY2duUXE2amVNVEw1TGEvNTVadUdtMnZMTDU4YVRzcU1wdjlZR0VMZDJ0cUZxQVE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjVGanp5emdzMEFMUG1lcTFZT3FwbFVTZ1AvejVjN3pUWGova253MXF1SjlmMnY1RVZ4d1Y0VG5JaUs3T0gzTXFSbktGOHYxa21iV1B3MWhVQXZBSnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NTYyMDQxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKdmFiSEdRdjRCWWgrbVFPSmw5QVBRUXhnTFNDSmJMbDJEb0d3eFJVN3BKSk12aEJmTkl4bFdKWG5HNWxrUUtmWTNvUFd0Si85bEpQRTBIeWtjT2ZmRGc9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjRrTmlPR2haZ2ttbnM2MUYzM1VqU2ZuL0lwS1dRUjFKaWFqcFlLYmw3cmZmbHNYd01RbXNySTFrT1BYdzZjYnQ4ZmljSU1tdS8yQ3dZdG5wRlVyd1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDA2NDkwCWZpbGU6U2FtcGxlIFNjb3V0XzEuMC4xMV94NjQtc2V0dXAuZXhlClVlcUtxa2tHRWRqamozemx3UXhkUlJ2RU96REVTTWorU1lXdm9NN2x0Um9UdWpUSGxxRnhsaUFOazMwbGwzNzhTNjdCM0J4dzBWcm01WWFCWm9OQkJRPT0K",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjV6MmtDU2FKUWxOVnJwV3YrNEs0L2NFYUt4SW9ENVFCU0JRZ3pBYndKL1dlTktOeXZnZHFxMkxaRkNnaUNkK0RrWFFIc2ErQmNzSU4zT1VYNkxRYlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NTYyMTA2CWZpbGU6U2FtcGxlIFNjb3V0XzEuMC4xMl94NjQtc2V0dXAuZXhlCmttZ2JkdDlaY256N2FJNUxBZUFTQ091cmxNNEtqWDhVZU9neld0cENCVWlDV2l1OFptTWd4d1M5QURIQjZiRWhnV0RPeld4Ukk1a2p2RE56b0xucUF3PT0K",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.11/Sample-Scout_1.0.11_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.0.12/Sample-Scout_1.0.12_amd64.deb"
     }
   }
 }

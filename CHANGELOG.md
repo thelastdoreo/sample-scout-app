@@ -1,3 +1,28 @@
+## v1.1.0 (2026-06-09)
+
+
+**Shuffle Sample Order** 
+- New button in header allows randomizing the browser pane order.
+- Scoped to what is currently visible in the browser pane so you can randomize the order of a single folder, a search, or your entire library flattened!
+**Re-sort any view**
+- Order either view pane by name, size, or audible clip length from the right-click menu.
+**On-disk file management**
+- Rename or delete files and folders on disk directly from the browser pane
+- Delete moves to Trash.
+**Post-export command**
+- Run a custom shell command or script from the export directory after export completes.
+- This can be used to run conversion scripts or other post-processing tasks.
+
+**Fixes**
+- **Export filenames** — OS-illegal characters are sanitized on export avoiding issues with file system operations. Export completes with mild warning for information purposes.
+- **BPM & Key detection** — fixed an issue with BPM and key detection for files 15 seconds and longer.
+- **WAV playback** — fixed an issue with playback of files whose RIFF header omits injected metadata chunks.
+- **Clean loop playback** — fixed an issue with loops where sometimes silence appeared at loop ends due to chunk boundaries.
+- **Select-all** — Cmd/Ctrl+A works as intended to select files in browser view without highlighting the interface.
+- **Adjusted sorting** — browse, search, and flat view sorting adjusted to sort by name by default.
+- **Collection counts** — revamped of display of orphaned and offline samples to better reflect intended state.
+- **Volume fader** — popup now dismisses consistently when a drag releases outside it.
+
 ## v1.0.12 (2026-05-23)
 
 **Features**

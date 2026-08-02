@@ -1,3 +1,15 @@
+## v1.2.0 (2026-08-02)
+
+
+**Features**
+- Light and dark themes, with a toggle in Settings' new Appearance tab.
+- Append-and-cue sample-chain export: combine a set into one file with cue points per sample.
+
+**Fixes**
+- Export pane caps to the window height; only the options list scrolls.
+- Corrected light-mode dialog hover and surface colors.
+- Consistent keyboard-hint pills in dialogs.
+
 ## v1.1.0 (2026-06-09)
 
 

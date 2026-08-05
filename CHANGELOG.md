@@ -1,3 +1,9 @@
+## v1.2.1 (2026-08-05)
+
+
+**Fixes**
+- Swapped chunk order to fix sample chain export on certain hardware.
+
 ## v1.2.0 (2026-08-02)
 
 

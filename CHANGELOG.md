@@ -1,3 +1,14 @@
+## v1.2.2 (2026-09-06)
+
+
+**Fixes**
+- Revamp of editor handle grab logic: Editor handles are grabbed by proximity now for GREATLY improved accuracy.
+- Fixed an issue where playback bound changes in the editor negatively affected browser playback.
+- Fixed an issue where the exported fade curve sometimes didn't match intended output.
+- Fixed a rare issue where a file that went offline while the app was open could temporarily stall playback.
+- 'Space' now correctly toggles playback of the loaded file even when a folder row is selected.
+- Reduced the minimum length of clips down to 0.0005s
+
 ## v1.2.1 (2026-08-05)
 
 

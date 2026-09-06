@@ -1,23 +1,23 @@
 {
-  "version": "1.2.1",
-  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_1.2.1_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout_1.2.1_universal.dmg) |\n| Windows | [Sample-Scout_1.2.1_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout_1.2.1_x64-setup.exe) |\n| Linux | [Sample-Scout_1.2.1_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout_1.2.1_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n\n**Fixes**\n- Swapped chunk order to fix sample chain export on certain hardware.\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.2.0...v1.2.1",
-  "pub_date": "2026-08-05T16:09:41Z",
+  "version": "1.2.2",
+  "notes": "### Download\n\n| Platform | Installer |\n|----------|-----------|\n| macOS | [Sample-Scout_1.2.2_universal.dmg](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout_1.2.2_universal.dmg) |\n| Windows | [Sample-Scout_1.2.2_x64-setup.exe](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout_1.2.2_x64-setup.exe) |\n| Linux | [Sample-Scout_1.2.2_amd64.deb](https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout_1.2.2_amd64.deb) |\n\n*Other files listed below are for the auto-updater and can be ignored.*\n\n\n**Fixes**\n- Revamp of editor handle grab logic: Editor handles are grabbed by proximity now for GREATLY improved accuracy.\n- Fixed an issue where playback bound changes in the editor negatively affected browser playback.\n- Fixed an issue where the exported fade curve sometimes didn't match intended output.\n- Fixed a rare issue where a file that went offline while the app was open could temporarily stall playback.\n- 'Space' now correctly toggles playback of the loaded file even when a folder row is selected.\n- Reduced the minimum length of clips down to 0.0005s\n**Full changelog**: https://github.com/thelastdoreo/sample-scout-app/compare/v1.2.1...v1.2.2",
+  "pub_date": "2026-09-06T17:00:01Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnhRbkRKRkFYRWFkUnVjNTFWdVFEODl2VVpEUGlDcEtRT0dpdHBIQzlRNkFoUWdQY3pBMFFJSlNxRm9MY1pxN3hGSmlnZWIvRkdEbXdvMTRhM2U1VHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQ0MjcxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKVTZpcUlibWVlRTcrSXEwQkEwK0MwNU5RNkpYQkxXU0pUbDhDMm5pZ29jVk1RUW5SeE9HeVh1RGRKU1NzQ2tqNnB1WFQrLzhKY1hoMlJodDF1c3VVQmc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjNzcTBDVytlcGJGeHQxN2dmbWpZUW1NcFc1cW5aaXRHREhxRUpLYldRZXhJNWgzUWxvSFJHc1F0RnBqRGJJSlFyQVpUVmZtdS9reGZabGlNN0xOL2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEyMzgwCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKemN0S2tkanVpQU1DczE3Z0gvdHQ4RHFpUkdFKzdPeitYdi9tMGdlSzdiZGZjOXg4TTRzeksrc2ViRXVlUDRzam5Uck41b01mMDd2eTBrZGNEVXdRRFE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnhRbkRKRkFYRWFkUnVjNTFWdVFEODl2VVpEUGlDcEtRT0dpdHBIQzlRNkFoUWdQY3pBMFFJSlNxRm9MY1pxN3hGSmlnZWIvRkdEbXdvMTRhM2U1VHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQ0MjcxCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKVTZpcUlibWVlRTcrSXEwQkEwK0MwNU5RNkpYQkxXU0pUbDhDMm5pZ29jVk1RUW5SeE9HeVh1RGRKU1NzQ2tqNnB1WFQrLzhKY1hoMlJodDF1c3VVQmc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjNzcTBDVytlcGJGeHQxN2dmbWpZUW1NcFc1cW5aaXRHREhxRUpLYldRZXhJNWgzUWxvSFJHc1F0RnBqRGJJSlFyQVpUVmZtdS9reGZabGlNN0xOL2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEyMzgwCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKemN0S2tkanVpQU1DczE3Z0gvdHQ4RHFpUkdFKzdPeitYdi9tMGdlSzdiZGZjOXg4TTRzeksrc2ViRXVlUDRzam5Uck41b01mMDd2eTBrZGNEVXdRRFE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjUwckI1QmdNYUJTZzE5RGh0SlRGTWI4UkZjVTFJUzFaU3JGa1FwUkRMcjlNYmxndTV2Qjh2T05uRldDZU4zbXQvL3dOeGliUXVNL0QwRUhYL281MFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQ0ODc4CWZpbGU6U2FtcGxlIFNjb3V0XzEuMi4xX3g2NC1zZXR1cC5leGUKOTB0dCtKdThGUEt1c204RUx5TitiYkpKQ0h6RDN0RVFPaEwrSG1NdTU5YXQ2Mk1VbmZYT3hRUnFGdjFERGp1WnVXNGxMVHRWWjg1bzIxSVNwNno2QVE9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout_1.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjBCRUJmcmU3SGsyK1U4dFJCUWZRTFp1ZUVobGM0Q2lRajA5bldDU3k4MExtbmZ0OUtQR05kZ0FXS3p6MTJGbnA2eE9BQVp1eC8wY0d3eTVvdTRtdXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEyOTU3CWZpbGU6U2FtcGxlIFNjb3V0XzEuMi4yX3g2NC1zZXR1cC5leGUKSzFsOU5MS0dJWllmclljSGZycVlIeGNBd3NleFY2WHh0ZklXNm9NT2Q2cm9Tbmlwbm1XOU4yeEFUMHZUVDR0L2ZtN3R5RVJyaXdmMmk1L3MvM3BjQVE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout_1.2.2_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.1/Sample-Scout_1.2.1_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.2/Sample-Scout_1.2.2_amd64.deb"
     }
   }
 }

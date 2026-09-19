@@ -1,3 +1,14 @@
+## v1.2.3 (2026-09-19)
+
+
+**Fixes**
+- Reworked .m4a support from an upstream issue: mono .m4a files no longer play at double speed, and .m4a waveforms, editor functions, etc all work.
+- Previously scanned .m4a files are re-read and re-analyzed once, so analysis data can be corrected.
+- Fixed a rare issue where notes on a sample were erased when the file changed on disk and was re-scanned.
+- Fixes for some audio preload edge cases.
+- Capped the preload cache at 1000 samples for lighter overall memory usage.
+- Fixed an issue where BPM and key analysis sometimes re-ran on files already analyzed, or skipped files in a Set opened in the browser.
+
 ## v1.2.2 (2026-09-06)
 
 

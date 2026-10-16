@@ -1,23 +1,23 @@
 {
-  "version": "1.2.4-beta.3",
-  "notes": "# Draft Patch Notes — v1.2.4-beta.3\n\nPrevious release: v1.2.3\n\n### Features\n- keep release feeds from going back in version\n- label the update channel selector Releases\n- define the beta track as any non-stable release\n- make the off-feed prerelease docs label-agnostic\n- document off-feed prereleases in the release process\n- add an off-feed option for one-off prereleases\n- tune the Channel selector's styling\n- tune the Channel selector's alignment and size\n- size the Channel selector to fit the version line\n- keep About's update display across Help tab switches\n- reset About's update state on open and keep the version line on one line\n- put the Channel selector in About's version line\n- clear a found beta on Linux when switching to Stable\n- discard a waiting beta update when switching to Stable\n- stop checking for updates when the update track changes\n- install macOS updates on restart like Windows\n- register the beta upgrade track as FEAT-058\n- show only actionable update states when About opens\n- document one release sequence for stable and beta and retire the beta-release skill\n- add a Stable/Beta update track selector and share one update flow\n- publish beta builds through the release workflow to a beta update feed\n- check the chosen update track and save release notes from the update feed\n- Send frontend log entries immediately until first render so launch lines land in order\n- Stamp frontend log entries with their own capture time and send the bundle-started milestone immediately\n- Capture frontend errors and launch milestones in the webview and forward them to the session log\n- Log frontend entries and launch diagnostics to the session log from Rust\n\n### Fixes\n- let rows under a non-scrolling ScrollArea's scrollbar strip take the mouse\n- use the lighter menu highlight in every menu\n- render theme colors as RGB channels",
-  "pub_date": "2026-10-06T23:11:15Z",
+  "version": "1.2.4",
+  "notes": "\n**Features**\n- **Beta releases in the app:** choose 'stable' or 'beta' under Releases in Help → About to get beta builds through the in-app updater, each with its own notes in What's New; switching back to stable waits for the next stable release.\n- On macOS, downloaded updates now install on the next restart, matching Windows.\n\n**Fixes**\n- Fixed an issue where theme colors sometimes displayed incorrectly on some systems.\n\n**Other**\n- Improved mouse handling in dropdown menus.\n- Revamped and unified logging for more comprehensive session logs.",
+  "pub_date": "2026-10-16T15:38:15Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjJvbUMzajVsV1NqZ2dsZ2tielZTT0xMdkFJM2FvT1BiVmx0c25Ud1dPWG1wcjdTTVl2ZGVyRDhsSElJb2NoalpsdTJ3VlJwUHBjd2piNTltQVFtSndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzIyMjczCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKWUxzSkN5ZHBRSWRCVUlzcWtGLzhDdmhzdmQ1bS9YQURFUEpUY3dmV05CTU12THFyc1FTczJsQ0Z6VWF0K0FLRmNPQUF5SkMrSTNGaGF0ZjNQbmN3Qnc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4-beta.3/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjRnVnIyZzd3R2JTdzgyczF4K1VtYW1CWXlJd2VmRy8wbzdwWmxYVTVoSzZaOE5oYkdHeEdCZ2JQR2t2dFNabVBRVFBHUmVRREVYYjBVWEViZ1YzZ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYzOTk5CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKaGZGYnRiMjN0eTFkWVFPeUlDaldxaHNtWEt5QXhJdGNRNStxcFdDZWFvY2psbWZEMFZLK2l2TUE0S3ZOSFJFcWt5dGNRbnBGMUNYV3M2QkRvb09UQ1E9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4/Sample-Scout.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjJvbUMzajVsV1NqZ2dsZ2tielZTT0xMdkFJM2FvT1BiVmx0c25Ud1dPWG1wcjdTTVl2ZGVyRDhsSElJb2NoalpsdTJ3VlJwUHBjd2piNTltQVFtSndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzIyMjczCWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKWUxzSkN5ZHBRSWRCVUlzcWtGLzhDdmhzdmQ1bS9YQURFUEpUY3dmV05CTU12THFyc1FTczJsQ0Z6VWF0K0FLRmNPQUF5SkMrSTNGaGF0ZjNQbmN3Qnc9PQo=",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4-beta.3/Sample-Scout.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcjRnVnIyZzd3R2JTdzgyczF4K1VtYW1CWXlJd2VmRy8wbzdwWmxYVTVoSzZaOE5oYkdHeEdCZ2JQR2t2dFNabVBRVFBHUmVRREVYYjBVWEViZ1YzZ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYzOTk5CWZpbGU6U2FtcGxlIFNjb3V0LmFwcC50YXIuZ3oKaGZGYnRiMjN0eTFkWVFPeUlDaldxaHNtWEt5QXhJdGNRNStxcFdDZWFvY2psbWZEMFZLK2l2TUE0S3ZOSFJFcWt5dGNRbnBGMUNYV3M2QkRvb09UQ1E9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4/Sample-Scout.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKci95clQ2QmwralVKQkk1cllHWjQrSXhNd09QdlZ5QUIzUGVFcWVpV3Jtbkd1c2hXYnBNd1JIT1ZKQWc5RXd2U3RzZFliUnphSzNsMmMzWk02NmFtU2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzIzMDE0CWZpbGU6U2FtcGxlIFNjb3V0XzEuMi40LWJldGEuM194NjQtc2V0dXAuZXhlCmRveS8zNWlWY29udFBQaUNPUUw5VFNpMnpjT0xNZGxITEsvYjNFa2J3ekpWTFk1VndwRkk0TWJpbEdDOUtCNzNFYWhVNHE3MVpVOE1EL01iL25JR0NRPT0K",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4-beta.3/Sample-Scout_1.2.4-beta.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUEtnb3o4a1VKcnl5VjdCR0VWdGJJaG1HQkVEckZVTWhOMy9LN1B2VWkyL25nUVhVUG4rbWZ0UGZ2SDZsOVFBVXJNWm13a25Bd2VncWhOTldhbTNXTHF2dTdjQkdXWXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTY0ODQ2CWZpbGU6U2FtcGxlIFNjb3V0XzEuMi40X3g2NC1zZXR1cC5leGUKbVkwK083akpsMXo2ZGhTM0N3TUorcG5KM1hPTEFCRU1PbzVNRStjc3FhN01wUE1BRHp2azJHR2dJZGRxcUlTVzNJZmpnZkRkdlBDdUh5bk1TUTFoREE9PQo=",
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4/Sample-Scout_1.2.4_x64-setup.exe"
     },
     "linux-x86_64": {
       "signature": "",
-      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4-beta.3/Sample-Scout_1.2.4-beta.3_amd64.deb"
+      "url": "https://github.com/thelastdoreo/sample-scout-app/releases/download/v1.2.4/Sample-Scout_1.2.4_amd64.deb"
     }
   }
 }

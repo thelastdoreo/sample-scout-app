@@ -1,14 +1,14 @@
 Package: sample-scout
-Version: 1.2.3
+Version: 1.2.4
 Architecture: amd64
 Maintainer: you
-Installed-Size: 59587
+Installed-Size: 59765
 Depends: libwebkit2gtk-4.1-0, libgtk-3-0
-Filename: pool/main/s/sample-scout/Sample-Scout_1.2.3_amd64.deb
-Size: 21380368
-MD5sum: 5a827a52eb5e5607028610cad5c51749
-SHA1: 6f7c3316e3a406cd44097eb3121b3394f36ae96c
-SHA256: 33d535384b75793636492790d657b136c004fc94b5a602b66b77426d088df5b9
+Filename: pool/main/s/sample-scout/Sample-Scout_1.2.4_amd64.deb
+Size: 21476958
+MD5sum: 74c5fd757edba5f6f54ab22e2874f407
+SHA1: 52515cedc6daa04303ffcd0b31fd91360ddcfd0b
+SHA256: 9f6ec11df7a7b524ae7880f974e2de7caa5aa952f5f776a86eaa20301bc2e94d
 Priority: optional
 Description: A professional sample manager for music producers
  (none)

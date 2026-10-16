@@ -1,3 +1,17 @@
+## v1.2.4 (2026-10-16)
+
+
+**Features**
+- **Beta releases in the app:** choose 'stable' or 'beta' under Releases in Help → About to get beta builds through the in-app updater, each with its own notes in What's New; switching back to stable waits for the next stable release.
+- On macOS, downloaded updates now install on the next restart, matching Windows.
+
+**Fixes**
+- Fixed an issue where theme colors sometimes displayed incorrectly on some systems.
+
+**Other**
+- Improved mouse handling in dropdown menus.
+- Revamped and unified logging for more comprehensive session logs.
+
 ## v1.2.3 (2026-09-19)
 
 
